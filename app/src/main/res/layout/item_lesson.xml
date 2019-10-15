@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrand">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@drawable/red">
+
+        <TextView
+            android:id="@+id/item_lesson_flag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="优 · 惠"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/lesson_title_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="好物甄选"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/item_lesson_introdue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="热销精品专场"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/lesson_title_one"/>
+
+        <ImageView
+            android:id="@+id/item_lesson_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/demo_three"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

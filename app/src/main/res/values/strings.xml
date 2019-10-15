@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">注册</string>
+    <string name="hint">请输入账号</string>
+    <string name="idcard">请输入身份证号</string>
+    <string name="phone">请输入手机号</string>
+    <string name="yanzhengma">请输入验证码</string>
+    <string name="pwd">请输入密码</string>
+    <string name="pwd1">请确认密码</string>
+    <string name="getyzm">获取验证码</string>
+    <string name="sign">注册</string>
+    <string name="agree">是否同意注册协议</string>
+    <string name="company">吉林化工学院</string>
+    <string name="user">账号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="forgetpwd">忘记密码</string>
+    <string name="tosign">立即注册</string>
+    <string name="intophone">输入手机号</string>
+    <string name="intoyanzheng">输入验证码</string>
+    <string name="intonpwd">输入新密码</string>
+    <string name="surenpwd">确认新密码</string>
+    <string name="showpwd">显示密码</string>
+    <string name="sure">确认</string>
+    <string name="title_activity_basic">BasicActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
